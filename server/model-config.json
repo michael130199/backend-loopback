@@ -34,5 +34,41 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  }
+  },
+  "news": {
+    "dataSource": "db",
+    "public": true
+  },
+  "user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "event": {
+    "dataSource": "db",
+    "public": true
+  },
+  "service": {
+    "dataSource": "db",
+    "public": true
+  },
+  "role": {
+    "dataSource": "db",
+    "public": true
+  },
+  "news_tag": {
+    "dataSource": "db",
+    "public": true
+  },
+  "tag": {
+    "dataSource": "db",
+    "public": true
+  },
+  "registry": {
+    "dataSource": "db",
+    "public": true
+  },
+   "file1": {
+     "dataSource": "db",
+     "public": true
+   }
 }

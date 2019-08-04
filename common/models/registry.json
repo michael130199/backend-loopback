@@ -1,0 +1,28 @@
+{
+  "name": "registry",
+  "plural": "registry",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "descrip": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
