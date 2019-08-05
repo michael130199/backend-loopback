@@ -67,8 +67,8 @@
     "dataSource": "db",
     "public": true
   },
-   "file1": {
-     "dataSource": "db",
-     "public": true
-   }
+  "file1": {
+    "dataSource": "db",
+    "public": true
+  }
 }
