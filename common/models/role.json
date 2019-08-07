@@ -31,7 +31,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "user": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": "role_id"
+    }
+  },
   "acls": [
     {
       "accessType": "*",

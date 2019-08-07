@@ -12,10 +12,6 @@
       "id": true,
       "required": true
     },
-    "file_id": {
-      "type": "number",
-      "required": true
-    },
     "title": {
       "type": "string",
       "required": true
@@ -49,13 +45,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "user_id": {
-      "type": "belongsTo",
-      "model": "user",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [
     {
       "accessType": "*",
