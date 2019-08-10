@@ -57,7 +57,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "news": {
+      "type": "hasMany",
+      "model": "news",
+      "foreignKey": "user_id"
+    }
+  },
   "acls": [
     {
       "principalType": "ROLE",
@@ -67,8 +73,7 @@
     {
       "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$unauthenticated",
-      "permission": "ALLOW"
+      "principalId": "$unauthenticated"
     }
   ],
   "methods": {}

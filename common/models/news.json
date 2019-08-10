@@ -12,14 +12,6 @@
       "id": true,
       "required": true
     },
-    "user_id": {
-      "type": "number",
-      "required": true
-    },
-    "file_id": {
-      "type": "number",
-      "required": true
-    },
     "title": {
       "type": "string",
       "required": true
