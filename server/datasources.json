@@ -8,5 +8,15 @@
     "name": "db",
     "user": "postgres",
     "connector": "postgresql"
+  },
+  "db1": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgresql://u_mct@localhost:5432/meunet",
+    "database": "meunet",
+    "password": "123456",
+    "name": "db",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }
