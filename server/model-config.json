@@ -71,5 +71,13 @@
   "file1": {
     "dataSource": "db",
     "public": true
+  },
+  "message": {
+    "dataSource": "db",
+    "public": true
+  },
+  "contact": {
+    "dataSource": "db",
+    "public": true
   }
 }

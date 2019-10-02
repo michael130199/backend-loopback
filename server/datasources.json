@@ -2,11 +2,11 @@
   "db": {
     "host": "localhost",
     "port": 5432,
-    "url": "postgresql://u_mct@localhost:5432/meunet",
+    "url": "postgresql://postgres:123456@localhost:5432/meunet",
     "database": "meunet",
-    "password": "",
+    "password": "123456",
     "name": "db",
-    "user": "u_mct",
+    "user": "postgres",
     "connector": "postgresql"
   }
 }

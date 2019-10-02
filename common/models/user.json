@@ -42,8 +42,7 @@
       "type": "string"
     },
     "remember_token": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "password": {
       "type": "string",
@@ -62,14 +61,28 @@
       "type": "hasMany",
       "model": "news",
       "foreignKey": "user_id"
+    },
+    "contacts": {
+      "type": "hasMany",
+      "model": "contact",
+      "foreignKey": "user_id"
+    },
+    "messages": {
+      "type": "hasMany",
+      "model": "message",
+      "foreignKey": "user_id"
     }
   },
   "acls": [
     {
-      "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
       "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated"
     }
   ],
   "methods": {}
